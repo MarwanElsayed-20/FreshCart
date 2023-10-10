@@ -1,6 +1,5 @@
 import {
   RouterProvider,
-  createBrowserRouter,
   createHashRouter,
 } from "react-router-dom";
 import { Suspense, lazy } from "react";
