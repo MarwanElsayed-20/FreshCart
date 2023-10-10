@@ -1,0 +1,117 @@
+:root {
+  --main-color: #2fb92f;
+  --secondary-color: #9f63b5;
+  --title-color: #21313c;
+  --text-color: #7e33e0;
+  --info-color: #eaebed;
+  --card-color: #3f509e;
+  --background-color: #f8f9fa;
+  --btn-color: #19d16f;
+}
+
+body {
+  margin: 0;
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 992px) {
+  .container {
+    width: 1177px;
+  }
+}
+@media (max-width: 767.98px) {
+}
+.navbar-nav .dropdown-menu {
+  width: 250px;
+}
+a {
+  text-decoration: none;
+  color: var(--info-color);
+}
+
+.main-color {
+  color: var(--main-color);
+}
+.main-bg-color {
+  background-color: var(--main-color);
+}
+.background-color {
+  background-color: var(--background-color);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--main-color) !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--main-color) !important;
+}
+.card-body,
+.card,
+.card:hover .card-info ul li {
+  transition: all 0.5s;
+}
+.card:hover {
+  background-color: var(--main-color);
+}
+.card:hover .card-body h4 {
+  color: white;
+}
+.card:hover .card-body div {
+  background-color: white;
+}
+.card:hover .card-body ul {
+  color: var(--info-color);
+}
+.card:hover .card-info ul li {
+  opacity: 1 !important;
+}
+.card-info ul li:hover {
+  background-color: var(--info-color);
+  color: var(--main-color);
+}
+.login {
+  transition: all 0.5s;
+}
+.login:hover {
+  color: var(--main-color) !important;
+}
+.btn.show,
+.btn:first-child:active {
+  color: var(--info-color);
+  border: none;
+}
+.btn:hover {
+  color: var(--info-color);
+}
+.proBtn {
+  height: 50px;
+  width: 50px;
+  transition: all 0.5s;
+  background-color: white;
+}
+.proBtn:hover {
+  color: white !important;
+  background-color: var(--main-color);
+}
+.single-product {
+  transition: all 0.5s;
+}
+.single-product:hover {
+  background-color: var(--main-color);
+}
+.single-product:hover .price span,
+.single-product:hover p {
+  color: white !important;
+}
+.menu-item:hover {
+  background-color: var(--info-color) !important;
+  color: var(--main-color) !important;
+}
+img {
+  object-fit: cover;
+}

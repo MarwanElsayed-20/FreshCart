@@ -1,0 +1,13 @@
+@import "../../index.css";
+
+.mainBtn {
+  background: var(--main-color);
+  border-radius: 0;
+  padding: 5px 25px;
+  color: var(--info-color);
+}
+.mainBtn:hover {
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}

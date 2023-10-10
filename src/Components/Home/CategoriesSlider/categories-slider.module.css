@@ -1,0 +1,9 @@
+@import "../../../index.css";
+
+.catImg {
+  object-fit: cover;
+  height: 150px;
+}
+.titleColor {
+  color: var(--main-color);
+}

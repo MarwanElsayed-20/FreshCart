@@ -1,0 +1,30 @@
+@import "../../../index.css";
+
+.underLine {
+  background-color: var(--main-color);
+  height: 3px;
+}
+.prodImg {
+  object-fit: cover;
+  height: 250px;
+}
+.minHeight {
+  min-height: 500px;
+}
+.shadow {
+  box-shadow: 0 0 14px 0px #ededed;
+}
+.position {
+  top: 20px;
+  left: 20px;
+}
+.iconStyle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: var(--info-color);
+  opacity: 0;
+}

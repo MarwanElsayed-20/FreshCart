@@ -1,0 +1,8 @@
+@import "../../index.css";
+
+.color {
+  color: var(--title-color) !important;
+}
+.signOutColor {
+  color: var(--info-color);
+}
