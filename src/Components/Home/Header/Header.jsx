@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <div className={`position-relative `}>
         <div className="container">
-          <div className="row my-4 s justify-content-center align-items-center">
+          <div className="row my-4 justify-content-center align-items-center">
             <div className="col-md-6">
               <div className={`intro w-100`}>
                 <p className={`${style.mainColor}`}>Best shop ever</p>
