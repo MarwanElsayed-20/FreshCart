@@ -38,7 +38,7 @@ const Brands = lazy(() => import("./Components/Brands/Brands"));
 const NotFound = lazy(() => import("./Components/NotFound/NotFound"));
 
 function App() {
-  const routes = createHashRouter([
+  const routes = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
