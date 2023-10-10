@@ -65,7 +65,7 @@ export default function CartContextProvider({ children }) {
   let CheckOut = async (id, shippingAddress) => {
     return axios
       .post(
-        `${baseUrl}/api/v1/orders/checkout-session/${id}?url=https://marwanelsayed-20.github.io/FreshCart#/`,
+        `${baseUrl}/api/v1/orders/checkout-session/${id}?url=https://marwanelsayed-20.github.io/FreshCart?#`,
         { shippingAddress },
         { headers }
       )
